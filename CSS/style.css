@@ -1,0 +1,65 @@
+/*Selector {
+	Property: value;
+}*/
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-size: cover;
+}
+ /*Selects all p within h2 -- h2 p */
+ /*Selects any p that is right after an h2 -- h2 + p */
+
+p {
+	text-align: center;
+	border: 5px solid rgb(255, 176, 170, .5);
+	cursor: pointer;
+	color: blue;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+p{
+	/*text-transform:uppercase;
+    text-decoration:underline;*/
+    line-height:15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: "Poiret One", cursive;
+
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+p {
+	color: red;
+}
+
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, .2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}
