@@ -7,7 +7,9 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background: url(header.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .container {
@@ -21,6 +23,11 @@ body {
 }
 
 .btn {
-	margin-top: 260px;
-	margin-left: 45.5%;
+	margin-top: 230px;
+	margin-left: 40.5%;
+	padding: 1rem 2rem;
+}
+
+.btn:hover {
+	background-color: blue;
 }
