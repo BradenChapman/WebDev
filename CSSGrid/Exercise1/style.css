@@ -25,6 +25,60 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+/*Nav Bar*/
+.green {
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    a {
+        font-size 0.5em;
+        margin: 0 1%;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.7em;
+    margin: 0px 2%;
+    color: #FEFEFE;
+}
+
+#contact {
+    margin-left: auto;
+}
+
+/*Nav Bar*/
+/*.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+.push {
+    margin-: auto;
+}*/
+
+
+/*Cover*/
+.red {
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+/*Project Grid*/
 .projects {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -41,38 +95,11 @@ img {
     padding: 120px 100px;
 }
 
-.red {
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 5em;
-}
-
-a {
-    text-decoration: none;
-    font-size: 0.7em;
-    margin: 0px 2%;
-    color: #FEFEFE;
-}
-
-.green {
-    align-items: center;
-}
-
-#contact {
-    margin-left: auto;
-}
-
+/*Footer*/
 .yellow {
     justify-content: center;
     align-items: center;
     font-size: 22px;
-}
-
-#cover {
-    height: 100%;
-    width: 100%;
-    margin: 0px 0px;
 }
 
 
