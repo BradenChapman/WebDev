@@ -1,10 +1,6 @@
 body {
     margin: auto 0;
 }
-.container {
-    display: grid;
-    grid-template-rows: 50px 500px 20fr 1fr;
-}
 
 .zone {
     color:#FFF;
@@ -16,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    cursor: pointer;
 }
 
 .zone:hover {
@@ -25,10 +22,22 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-/*Nav Bar*/
-.green {
-    align-items: center;
+.box:hover {
+    -webkit-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    -o-transform:rotate(-2deg);
+    box-transform:rotate(-2deg);
 }
+
+/*Nav Bar*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    align-items: center;
+    height: 50px;
+}
+
 
 @media only screen and (max-width: 600px) {
     a {
@@ -71,15 +80,20 @@ a {
 
 
 /*Cover*/
-.red {
+.cover {
     align-items: center;
     justify-content: center;
     font-weight: bold;
     font-size: 5em;
+    height: 50vh;
+}
+
+.cover > img {
+    width: 30rem;
 }
 
 /*Project Grid*/
-.projects {
+/*.projects {
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -93,6 +107,23 @@ img {
     background-color: #444;
     background-size: 350px 350px;
     padding: 120px 100px;
+}*/
+
+/*Grid*/
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 100px;
+    margin: 20px;
 }
 
 /*Footer*/
